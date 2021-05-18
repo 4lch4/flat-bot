@@ -19,3 +19,8 @@ jobs:
         with:
           http_url: https://old.reddit.com/r/PewdiepieSubmissions/top/.json?sort=top&t=day
           downloaded_filename: PewDiePieSubmissions.json
+      - name: Fetch data
+        uses: githubocto/flat@v2
+        with:
+          http_url: https://youtooz.com/
+          downloaded_filename: youtooz
