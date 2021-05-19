@@ -22,5 +22,5 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v2
         with:
-          http_url: https://youtooz.com/
-          downloaded_filename: youtooz
+          http_url: https://api.twitter.com/1.1/trends/place.json?id=1
+          downloaded_filename: twitter/trending-global-hashtags.json
