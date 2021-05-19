@@ -91,12 +91,12 @@ window.ShopifyPay.apiHost = "shop.app\/pay";</script>
     window.addEventListener('load', asyncLoad, false);
   }
 })();</script>
-<script id="__st">var __st={"a":16028401712,"offset":-25200,"reqid":"e49fd5fe-f289-41fe-a227-1ea79600f991","pageurl":"youtooz.com\/","u":"987a59effc61","p":"home"};</script>
+<script id="__st">var __st={"a":16028401712,"offset":-25200,"reqid":"afd1afb5-379e-41c6-b8ee-38ce04b04ff2","pageurl":"youtooz.com\/","u":"7d5945fc9c23","p":"home"};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
 <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
 window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
 window.ShopifyAnalytics.meta.currency = 'USD';
-var meta = {"page":{"pageType":"home"},"page_view_event_id":"c161a4bb1ae99d3ff1a46b04b71ccd71cbf2affa5137138c9ad929a560af11ba","cart_event_id":"414b8a4fab8724b61965beb5b95aa93927cfaf9311d2f8ac11bbd4d61f685c51"};
+var meta = {"page":{"pageType":"home"},"page_view_event_id":"5c8a7802424e6872e2cd466233479868a1001fecad75b9697863b350bcc42b4f","cart_event_id":"98aebf7d39a76e5ec2f75880cd3034a8bca14f0315428bb963f294b9f4e418ae"};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
@@ -219,15 +219,15 @@ for (var attr in meta) {
       theme_id: 48389259312,
       app_name: "storefront",
       context_url: window.location.href,
-      source_url: "https://cdn.shopify.com/s/trekkie.storefront.df6b00d20909a649d079ae9dc31ef825b4fe66d0.min.js"});
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.min.js"});
 
       };
       scriptFallback.async = true;
-      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.df6b00d20909a649d079ae9dc31ef825b4fe66d0.min.js';
+      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.min.js';
       first.parentNode.insertBefore(scriptFallback, first);
     };
     script.async = true;
-    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.df6b00d20909a649d079ae9dc31ef825b4fe66d0.min.js';
+    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.min.js';
     first.parentNode.insertBefore(script, first);
   };
   trekkie.load(
@@ -431,7 +431,7 @@ for (var attr in meta) {
         window.ShopifyAnalytics.lib.page(
           null,
           {"pageType":"home"},
-          "c161a4bb1ae99d3ff1a46b04b71ccd71cbf2affa5137138c9ad929a560af11ba"
+          "5c8a7802424e6872e2cd466233479868a1001fecad75b9697863b350bcc42b4f"
         );
       
 
