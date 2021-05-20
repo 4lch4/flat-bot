@@ -5,7 +5,7 @@ import {
   readJSON
 } from 'https://deno.land/x/flat@0.0.10/mod.ts'
 import * as log from 'https://deno.land/std@0.97.0/log/mod.ts'
-import { writeJson } from 'https://deno.land/x/jsonfile/mod.ts'
+import { writeJsonSync } from 'https://deno.land/x/jsonfile/mod.ts'
 
 // Get the data filename as the first argument
 const filename = Deno.args[0]
@@ -18,4 +18,4 @@ const newFilename = `${filename.substring(
 
 log.debug(`newFilename = ${newFilename}`)
 
-await writeJson(newFilename, data[0].trends, { spaces: 2 })
+writeJsonSync(newFilename, data[0].trends, { spaces: 2 })
