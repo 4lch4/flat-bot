@@ -21,9 +21,7 @@ jobs:
           downloaded_filename: PewDiePieSubmissions.json
       - name: Fetch data
         uses: 4lch4/flat@v3.0.2
-        env:
-          API_TOKEN: "${{secrets.TWITTER_API_BEARER_TOKEN}}"
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
-          Authorization: "${{API_TOKEN}}"
+          Authorization: "${{secrets.TWITTER_API_BEARER_TOKEN}}"
           downloaded_filename: twitter/trending-global-hashtags.json
