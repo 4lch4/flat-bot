@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
+      - ./src/processors/Twitter.ts
 jobs:
   scheduled:
     runs-on: ubuntu-latest
@@ -23,5 +24,6 @@ jobs:
         uses: 4lch4/flat@v3.1.0
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
-          Authorization: "${{secrets.TWITTER_API_BEARER_TOKEN}}"
+          Authorization: ${{secrets.TWITTER_API_BEARER_TOKEN}}
           downloaded_filename: twitter/trending-global-hashtags.json
+          postprocess: ./src/processors/Twitter.ts
