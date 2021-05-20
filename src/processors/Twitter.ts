@@ -6,13 +6,15 @@ import {
   writeJSON
 } from 'https://deno.land/x/flat@0.0.10/mod.ts'
 import * as log from 'https://deno.land/std@0.97.0/log/mod.ts'
-import filenamify from 'https://cdn.skypack.dev/filenamify'
 
 // Get the data filename as the first argument
 const filename = Deno.args[0]
 const data = await readJSON(filename)
 const createdAt = data[0].created_at
-const newFilename = `${filename.substring(0, filename.indexOf('.json'))}-${filenamify(createdAt)}.json`
+const newFilename = `${filename.substring(
+  0,
+  filename.indexOf('.json')
+)}-${createdAt.replace(':', '.')}.json`
 
 log.debug(`newFilename = ${newFilename}`)
 
