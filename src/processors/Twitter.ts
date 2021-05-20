@@ -7,6 +7,7 @@ import { readJson, writeJson } from 'https://deno.land/x/jsonfile/mod.ts'
 // Get the data filename as the first argument
 const filename = Deno.args[0]
 const data = await readJson(filename)
+log.debug(data)
 const createdAt = data[0].created_at
 const newFilename = `${filename.substring(
   0,
