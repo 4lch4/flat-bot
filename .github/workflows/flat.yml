@@ -23,5 +23,5 @@ jobs:
         uses: 4lch4/flat@v3.0.3
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
-          Authorization: ${{secrets.TWITTER_API_BEARER_TOKEN}}
+          Authorization: "Bearer ${{secrets.TWITTER_API_BEARER_TOKEN}}"
           downloaded_filename: twitter/trending-global-hashtags.json
