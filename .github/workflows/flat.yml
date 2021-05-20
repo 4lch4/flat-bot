@@ -20,8 +20,8 @@ jobs:
           http_url: https://old.reddit.com/r/PewdiepieSubmissions/top/.json?sort=top&t=day
           downloaded_filename: PewDiePieSubmissions.json
       - name: Fetch data
-        uses: 4lch4/flat@v3.0.3
+        uses: 4lch4/flat@v3.0.4
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
-          Authorization: "Bearer ${{secrets.TWITTER_API_BEARER_TOKEN}}"
+          Authorization: "${{secrets.TWITTER_API_BEARER_TOKEN}}"
           downloaded_filename: twitter/trending-global-hashtags.json
