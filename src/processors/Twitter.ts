@@ -2,10 +2,9 @@
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 // You can test this script locally on your computer by runinng `deno run -A --unstable postprocess.ts data.json`
 import {
-  readJSON
+  readJSON,
+  writeJSON
 } from 'https://deno.land/x/flat@0.0.10/mod.ts'
-import * as log from 'https://deno.land/std@0.97.0/log/mod.ts'
-import { writeJsonSync } from 'https://deno.land/x/jsonfile/mod.ts'
 
 // Get the data filename as the first argument
 const filename = Deno.args[0]
@@ -16,6 +15,4 @@ const newFilename = `${filename.substring(
   filename.indexOf('.json')
 )}-${createdAt.replace(':', '.')}.json`
 
-log.debug(`newFilename = ${newFilename}`)
-
-writeJsonSync(newFilename, data[0].trends, { spaces: 2 })
+writeJSON(newFilename, data[0].trends)
