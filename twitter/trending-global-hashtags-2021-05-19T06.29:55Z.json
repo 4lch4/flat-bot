@@ -4,139 +4,230 @@
     "url": "http://twitter.com/search?q=%23%D8%BA%D8%B2%D9%87_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
     "promoted_content": null,
     "query": "%23%D8%BA%D8%B2%D9%87_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
-    "tweet_volume": 247336
+    "tweet_volume": 353856
   },
   {
     "name": "Alberto",
     "url": "http://twitter.com/search?q=Alberto",
     "promoted_content": null,
     "query": "Alberto",
-    "tweet_volume": 120093
-  },
-  {
-    "name": "#فلسطين_تنتصر",
-    "url": "http://twitter.com/search?q=%23%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
-    "promoted_content": null,
-    "query": "%23%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
-    "tweet_volume": 135993
-  },
-  {
-    "name": "#Eurovision",
-    "url": "http://twitter.com/search?q=%23Eurovision",
-    "promoted_content": null,
-    "query": "%23Eurovision",
-    "tweet_volume": 447333
+    "tweet_volume": 171274
   },
   {
     "name": "#ButterToday",
     "url": "http://twitter.com/search?q=%23ButterToday",
     "promoted_content": null,
     "query": "%23ButterToday",
-    "tweet_volume": 326982
+    "tweet_volume": 411021
   },
   {
     "name": "Tavares",
     "url": "http://twitter.com/search?q=Tavares",
     "promoted_content": null,
     "query": "Tavares",
+    "tweet_volume": 31626
+  },
+  {
+    "name": "#فلسطين_تنتصر",
+    "url": "http://twitter.com/search?q=%23%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
+    "promoted_content": null,
+    "query": "%23%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86_%D8%AA%D9%86%D8%AA%D8%B5%D8%B1",
+    "tweet_volume": 204504
+  },
+  {
+    "name": "Perry",
+    "url": "http://twitter.com/search?q=Perry",
+    "promoted_content": null,
+    "query": "Perry",
+    "tweet_volume": 44690
+  },
+  {
+    "name": "#GreysAnatomy",
+    "url": "http://twitter.com/search?q=%23GreysAnatomy",
+    "promoted_content": null,
+    "query": "%23GreysAnatomy",
+    "tweet_volume": 28158
+  },
+  {
+    "name": "#LeafsForever",
+    "url": "http://twitter.com/search?q=%23LeafsForever",
+    "promoted_content": null,
+    "query": "%23LeafsForever",
+    "tweet_volume": 18363
+  },
+  {
+    "name": "Soldano",
+    "url": "http://twitter.com/search?q=Soldano",
+    "promoted_content": null,
+    "query": "Soldano",
+    "tweet_volume": 17886
+  },
+  {
+    "name": "Felipe Melo",
+    "url": "http://twitter.com/search?q=%22Felipe+Melo%22",
+    "promoted_content": null,
+    "query": "%22Felipe+Melo%22",
     "tweet_volume": null
   },
   {
-    "name": "#CuarentenaEstricta",
-    "url": "http://twitter.com/search?q=%23CuarentenaEstricta",
+    "name": "Foligno",
+    "url": "http://twitter.com/search?q=Foligno",
     "promoted_content": null,
-    "query": "%23CuarentenaEstricta",
-    "tweet_volume": 27414
+    "query": "Foligno",
+    "tweet_volume": null
+  },
+  {
+    "name": "Jeff Carter",
+    "url": "http://twitter.com/search?q=%22Jeff+Carter%22",
+    "promoted_content": null,
+    "query": "%22Jeff+Carter%22",
+    "tweet_volume": null
   },
   {
     "name": "Copa América",
     "url": "http://twitter.com/search?q=%22Copa+Am%C3%A9rica%22",
     "promoted_content": null,
     "query": "%22Copa+Am%C3%A9rica%22",
-    "tweet_volume": 110951
+    "tweet_volume": 143870
   },
   {
-    "name": "LIVE MEK COM SARAH",
-    "url": "http://twitter.com/search?q=%22LIVE+MEK+COM+SARAH%22",
+    "name": "Daniel Alves",
+    "url": "http://twitter.com/search?q=%22Daniel+Alves%22",
     "promoted_content": null,
-    "query": "%22LIVE+MEK+COM+SARAH%22",
-    "tweet_volume": 70600
+    "query": "%22Daniel+Alves%22",
+    "tweet_volume": null
+  },
+  {
+    "name": "Marcos Guilherme",
+    "url": "http://twitter.com/search?q=%22Marcos+Guilherme%22",
+    "promoted_content": null,
+    "query": "%22Marcos+Guilherme%22",
+    "tweet_volume": null
+  },
+  {
+    "name": "Islanders",
+    "url": "http://twitter.com/search?q=Islanders",
+    "promoted_content": null,
+    "query": "Islanders",
+    "tweet_volume": null
+  },
+  {
+    "name": "Ricardinho",
+    "url": "http://twitter.com/search?q=Ricardinho",
+    "promoted_content": null,
+    "query": "Ricardinho",
+    "tweet_volume": null
+  },
+  {
+    "name": "Taison",
+    "url": "http://twitter.com/search?q=Taison",
+    "promoted_content": null,
+    "query": "Taison",
+    "tweet_volume": null
+  },
+  {
+    "name": "Fase 1",
+    "url": "http://twitter.com/search?q=%22Fase+1%22",
+    "promoted_content": null,
+    "query": "%22Fase+1%22",
+    "tweet_volume": 73048
+  },
+  {
+    "name": "Larreta",
+    "url": "http://twitter.com/search?q=Larreta",
+    "promoted_content": null,
+    "query": "Larreta",
+    "tweet_volume": 24628
+  },
+  {
+    "name": "Cortez",
+    "url": "http://twitter.com/search?q=Cortez",
+    "promoted_content": null,
+    "query": "Cortez",
+    "tweet_volume": 17978
+  },
+  {
+    "name": "404twt",
+    "url": "http://twitter.com/search?q=404twt",
+    "promoted_content": null,
+    "query": "404twt",
+    "tweet_volume": null
+  },
+  {
+    "name": "Lindoso",
+    "url": "http://twitter.com/search?q=Lindoso",
+    "promoted_content": null,
+    "query": "Lindoso",
+    "tweet_volume": null
+  },
+  {
+    "name": "Carina",
+    "url": "http://twitter.com/search?q=Carina",
+    "promoted_content": null,
+    "query": "Carina",
+    "tweet_volume": 12776
+  },
+  {
+    "name": "Meredith",
+    "url": "http://twitter.com/search?q=Meredith",
+    "promoted_content": null,
+    "query": "Meredith",
+    "tweet_volume": null
+  },
+  {
+    "name": "Dourado",
+    "url": "http://twitter.com/search?q=Dourado",
+    "promoted_content": null,
+    "query": "Dourado",
+    "tweet_volume": null
   },
   {
     "name": "Rita Lee",
     "url": "http://twitter.com/search?q=%22Rita+Lee%22",
     "promoted_content": null,
     "query": "%22Rita+Lee%22",
+    "tweet_volume": 10157
+  },
+  {
+    "name": "Campuzano",
+    "url": "http://twitter.com/search?q=Campuzano",
+    "promoted_content": null,
+    "query": "Campuzano",
     "tweet_volume": null
   },
   {
-    "name": "大雨警報",
-    "url": "http://twitter.com/search?q=%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1",
+    "name": "volpi",
+    "url": "http://twitter.com/search?q=volpi",
     "promoted_content": null,
-    "query": "%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1",
-    "tweet_volume": 25993
+    "query": "volpi",
+    "tweet_volume": null
+  },
+  {
+    "name": "Varela",
+    "url": "http://twitter.com/search?q=Varela",
+    "promoted_content": null,
+    "query": "Varela",
+    "tweet_volume": null
   },
   {
     "name": "B'zサブスク解禁",
     "url": "http://twitter.com/search?q=B%27z%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF%E8%A7%A3%E7%A6%81",
     "promoted_content": null,
     "query": "B%27z%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF%E8%A7%A3%E7%A6%81",
-    "tweet_volume": 28022
+    "tweet_volume": 33599
   },
   {
-    "name": "النصر",
-    "url": "http://twitter.com/search?q=%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
+    "name": "アラジン",
+    "url": "http://twitter.com/search?q=%E3%82%A2%E3%83%A9%E3%82%B8%E3%83%B3",
     "promoted_content": null,
-    "query": "%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
-    "tweet_volume": 262073
+    "query": "%E3%82%A2%E3%83%A9%E3%82%B8%E3%83%B3",
+    "tweet_volume": 18033
   },
   {
-    "name": "学校休み",
-    "url": "http://twitter.com/search?q=%E5%AD%A6%E6%A0%A1%E4%BC%91%E3%81%BF",
+    "name": "Crosby",
+    "url": "http://twitter.com/search?q=Crosby",
     "promoted_content": null,
-    "query": "%E5%AD%A6%E6%A0%A1%E4%BC%91%E3%81%BF",
-    "tweet_volume": 10086
-  },
-  {
-    "name": "Finland",
-    "url": "http://twitter.com/search?q=Finland",
-    "promoted_content": null,
-    "query": "Finland",
-    "tweet_volume": 34326
-  },
-  {
-    "name": "Ted Cruz",
-    "url": "http://twitter.com/search?q=%22Ted+Cruz%22",
-    "promoted_content": null,
-    "query": "%22Ted+Cruz%22",
-    "tweet_volume": 45865
-  },
-  {
-    "name": "おじさん構文",
-    "url": "http://twitter.com/search?q=%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E6%A7%8B%E6%96%87",
-    "promoted_content": null,
-    "query": "%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E6%A7%8B%E6%96%87",
-    "tweet_volume": null
-  },
-  {
-    "name": "Overwatch 2",
-    "url": "http://twitter.com/search?q=%22Overwatch+2%22",
-    "promoted_content": null,
-    "query": "%22Overwatch+2%22",
-    "tweet_volume": 28540
-  },
-  {
-    "name": "San Marino",
-    "url": "http://twitter.com/search?q=%22San+Marino%22",
-    "promoted_content": null,
-    "query": "%22San+Marino%22",
-    "tweet_volume": 27840
-  },
-  {
-    "name": "ロッテ・清田育宏",
-    "url": "http://twitter.com/search?q=%E3%83%AD%E3%83%83%E3%83%86%E3%83%BB%E6%B8%85%E7%94%B0%E8%82%B2%E5%AE%8F",
-    "promoted_content": null,
-    "query": "%E3%83%AD%E3%83%83%E3%83%86%E3%83%BB%E6%B8%85%E7%94%B0%E8%82%B2%E5%AE%8F",
+    "query": "Crosby",
     "tweet_volume": null
   },
   {
@@ -147,81 +238,102 @@
     "tweet_volume": null
   },
   {
-    "name": "Guimaraes",
-    "url": "http://twitter.com/search?q=Guimaraes",
+    "name": "Matt Martin",
+    "url": "http://twitter.com/search?q=%22Matt+Martin%22",
     "promoted_content": null,
-    "query": "Guimaraes",
+    "query": "%22Matt+Martin%22",
     "tweet_volume": null
   },
   {
-    "name": "Iceland",
-    "url": "http://twitter.com/search?q=Iceland",
+    "name": "Pachu",
+    "url": "http://twitter.com/search?q=Pachu",
     "promoted_content": null,
-    "query": "Iceland",
-    "tweet_volume": 29574
-  },
-  {
-    "name": "幕張のドン・ファン",
-    "url": "http://twitter.com/search?q=%E5%B9%95%E5%BC%B5%E3%81%AE%E3%83%89%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A1%E3%83%B3",
-    "promoted_content": null,
-    "query": "%E5%B9%95%E5%BC%B5%E3%81%AE%E3%83%89%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A1%E3%83%B3",
+    "query": "Pachu",
     "tweet_volume": null
   },
   {
-    "name": "ARTHURPICOLI NA QUEM",
-    "url": "http://twitter.com/search?q=%22ARTHURPICOLI+NA+QUEM%22",
+    "name": "ロッテ・清田育宏",
+    "url": "http://twitter.com/search?q=%E3%83%AD%E3%83%83%E3%83%86%E3%83%BB%E6%B8%85%E7%94%B0%E8%82%B2%E5%AE%8F",
     "promoted_content": null,
-    "query": "%22ARTHURPICOLI+NA+QUEM%22",
-    "tweet_volume": 118582
-  },
-  {
-    "name": "Velveteen Dream",
-    "url": "http://twitter.com/search?q=%22Velveteen+Dream%22",
-    "promoted_content": null,
-    "query": "%22Velveteen+Dream%22",
+    "query": "%E3%83%AD%E3%83%83%E3%83%86%E3%83%BB%E6%B8%85%E7%94%B0%E8%82%B2%E5%AE%8F",
     "tweet_volume": null
   },
   {
-    "name": "lana",
-    "url": "http://twitter.com/search?q=lana",
+    "name": "النصر",
+    "url": "http://twitter.com/search?q=%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
     "promoted_content": null,
-    "query": "lana",
-    "tweet_volume": 96782
+    "query": "%D8%A7%D9%84%D9%86%D8%B5%D8%B1",
+    "tweet_volume": 301197
   },
   {
-    "name": "Portugal",
-    "url": "http://twitter.com/search?q=Portugal",
+    "name": "Galhardo",
+    "url": "http://twitter.com/search?q=Galhardo",
     "promoted_content": null,
-    "query": "Portugal",
-    "tweet_volume": 73287
+    "query": "Galhardo",
+    "tweet_volume": null
   },
   {
-    "name": "ابو عبيده",
-    "url": "http://twitter.com/search?q=%22%D8%A7%D8%A8%D9%88+%D8%B9%D8%A8%D9%8A%D8%AF%D9%87%22",
+    "name": "Araos",
+    "url": "http://twitter.com/search?q=Araos",
     "promoted_content": null,
-    "query": "%22%D8%A7%D8%A8%D9%88+%D8%B9%D8%A8%D9%8A%D8%AF%D9%87%22",
-    "tweet_volume": 64526
+    "query": "Araos",
+    "tweet_volume": null
   },
   {
-    "name": "Russian",
-    "url": "http://twitter.com/search?q=Russian",
+    "name": "Aragua",
+    "url": "http://twitter.com/search?q=Aragua",
     "promoted_content": null,
-    "query": "Russian",
-    "tweet_volume": 124183
+    "query": "Aragua",
+    "tweet_volume": 11955
   },
   {
-    "name": "Diana",
-    "url": "http://twitter.com/search?q=Diana",
+    "name": "Ted Cruz",
+    "url": "http://twitter.com/search?q=%22Ted+Cruz%22",
     "promoted_content": null,
-    "query": "Diana",
-    "tweet_volume": 94528
+    "query": "%22Ted+Cruz%22",
+    "tweet_volume": 52366
   },
   {
-    "name": "アラジン",
-    "url": "http://twitter.com/search?q=%E3%82%A2%E3%83%A9%E3%82%B8%E3%83%B3",
+    "name": "大雨警報",
+    "url": "http://twitter.com/search?q=%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1",
     "promoted_content": null,
-    "query": "%E3%82%A2%E3%83%A9%E3%82%B8%E3%83%B3",
-    "tweet_volume": 12545
+    "query": "%E5%A4%A7%E9%9B%A8%E8%AD%A6%E5%A0%B1",
+    "tweet_volume": 29506
+  },
+  {
+    "name": "deluca",
+    "url": "http://twitter.com/search?q=deluca",
+    "promoted_content": null,
+    "query": "deluca",
+    "tweet_volume": null
+  },
+  {
+    "name": "Somoza",
+    "url": "http://twitter.com/search?q=Somoza",
+    "promoted_content": null,
+    "query": "Somoza",
+    "tweet_volume": null
+  },
+  {
+    "name": "LIVE MEK COM SARAH",
+    "url": "http://twitter.com/search?q=%22LIVE+MEK+COM+SARAH%22",
+    "promoted_content": null,
+    "query": "%22LIVE+MEK+COM+SARAH%22",
+    "tweet_volume": 72686
+  },
+  {
+    "name": "Lizardo",
+    "url": "http://twitter.com/search?q=Lizardo",
+    "promoted_content": null,
+    "query": "Lizardo",
+    "tweet_volume": null
+  },
+  {
+    "name": "Pacers",
+    "url": "http://twitter.com/search?q=Pacers",
+    "promoted_content": null,
+    "query": "Pacers",
+    "tweet_volume": 16667
   },
   {
     "name": "LOVE PHANTOM",
@@ -231,122 +343,10 @@
     "tweet_volume": null
   },
   {
-    "name": "Şehit Diplomatlar",
-    "url": "http://twitter.com/search?q=%22%C5%9Eehit+Diplomatlar%22",
+    "name": "lary",
+    "url": "http://twitter.com/search?q=lary",
     "promoted_content": null,
-    "query": "%22%C5%9Eehit+Diplomatlar%22",
-    "tweet_volume": null
-  },
-  {
-    "name": "菅野美穂さん",
-    "url": "http://twitter.com/search?q=%E8%8F%85%E9%87%8E%E7%BE%8E%E7%A9%82%E3%81%95%E3%82%93",
-    "promoted_content": null,
-    "query": "%E8%8F%85%E9%87%8E%E7%BE%8E%E7%A9%82%E3%81%95%E3%82%93",
-    "tweet_volume": null
-  },
-  {
-    "name": "タンク1",
-    "url": "http://twitter.com/search?q=%E3%82%BF%E3%83%B3%E3%82%AF1",
-    "promoted_content": null,
-    "query": "%E3%82%BF%E3%83%B3%E3%82%AF1",
-    "tweet_volume": null
-  },
-  {
-    "name": "Prince William",
-    "url": "http://twitter.com/search?q=%22Prince+William%22",
-    "promoted_content": null,
-    "query": "%22Prince+William%22",
-    "tweet_volume": 17410
-  },
-  {
-    "name": "Chano",
-    "url": "http://twitter.com/search?q=Chano",
-    "promoted_content": null,
-    "query": "Chano",
-    "tweet_volume": null
-  },
-  {
-    "name": "Bulgaria",
-    "url": "http://twitter.com/search?q=Bulgaria",
-    "promoted_content": null,
-    "query": "Bulgaria",
-    "tweet_volume": 21032
-  },
-  {
-    "name": "テスト最終日",
-    "url": "http://twitter.com/search?q=%E3%83%86%E3%82%B9%E3%83%88%E6%9C%80%E7%B5%82%E6%97%A5",
-    "promoted_content": null,
-    "query": "%E3%83%86%E3%82%B9%E3%83%88%E6%9C%80%E7%B5%82%E6%97%A5",
-    "tweet_volume": null
-  },
-  {
-    "name": "Serbia",
-    "url": "http://twitter.com/search?q=Serbia",
-    "promoted_content": null,
-    "query": "Serbia",
-    "tweet_volume": 23803
-  },
-  {
-    "name": "Chioma",
-    "url": "http://twitter.com/search?q=Chioma",
-    "promoted_content": null,
-    "query": "Chioma",
-    "tweet_volume": null
-  },
-  {
-    "name": "Corey Perry",
-    "url": "http://twitter.com/search?q=%22Corey+Perry%22",
-    "promoted_content": null,
-    "query": "%22Corey+Perry%22",
-    "tweet_volume": null
-  },
-  {
-    "name": "Emmen",
-    "url": "http://twitter.com/search?q=Emmen",
-    "promoted_content": null,
-    "query": "Emmen",
-    "tweet_volume": null
-  },
-  {
-    "name": "Larreta",
-    "url": "http://twitter.com/search?q=Larreta",
-    "promoted_content": null,
-    "query": "Larreta",
-    "tweet_volume": 14750
-  },
-  {
-    "name": "NEW ERA IS ALMOST HERE",
-    "url": "http://twitter.com/search?q=%22NEW+ERA+IS+ALMOST+HERE%22",
-    "promoted_content": null,
-    "query": "%22NEW+ERA+IS+ALMOST+HERE%22",
-    "tweet_volume": 12093
-  },
-  {
-    "name": "AMANHÃ TEM LIVE I&R",
-    "url": "http://twitter.com/search?q=%22AMANH%C3%83+TEM+LIVE+I%26R%22",
-    "promoted_content": null,
-    "query": "%22AMANH%C3%83+TEM+LIVE+I%26R%22",
-    "tweet_volume": null
-  },
-  {
-    "name": "りゅかみちゃん",
-    "url": "http://twitter.com/search?q=%E3%82%8A%E3%82%85%E3%81%8B%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93",
-    "promoted_content": null,
-    "query": "%E3%82%8A%E3%82%85%E3%81%8B%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93",
-    "tweet_volume": null
-  },
-  {
-    "name": "Soldano",
-    "url": "http://twitter.com/search?q=Soldano",
-    "promoted_content": null,
-    "query": "Soldano",
-    "tweet_volume": null
-  },
-  {
-    "name": "Alverso",
-    "url": "http://twitter.com/search?q=Alverso",
-    "promoted_content": null,
-    "query": "Alverso",
+    "query": "lary",
     "tweet_volume": null
   }
 ]
