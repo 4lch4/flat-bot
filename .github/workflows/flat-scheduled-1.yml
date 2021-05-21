@@ -1,24 +1,17 @@
-name: Dispatch
+name: Scheduled-Job-1
 on:
-  workflow_dispatch: {}
-  push:
-    paths:
-      - .github/workflows/flat.yml
-      - ./src/processors/Twitter.ts
+  schedule:
+    - cron: "*/15 * * * *"
+
 jobs:
-  Dispatched:
+  Twitter:
     runs-on: ubuntu-latest
     steps:
       - name: Setup deno
         uses: denolib/setup-deno@v2
       - name: Check out repo
         uses: actions/checkout@v2
-      - name: Fetch data
-        uses: githubocto/flat@v2
-        with:
-          http_url: https://old.reddit.com/r/PewdiepieSubmissions/top/.json?sort=top&t=day
-          downloaded_filename: PewDiePieSubmissions.json
-      - name: Fetch data
+      - name: Trending Global Hashtags/Topics
         uses: 4lch4/flat@v3.1.1
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
