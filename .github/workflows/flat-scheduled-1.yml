@@ -20,3 +20,7 @@ jobs:
           Authorization: "Bearer ${{secrets.TWITTER_API_BEARER_TOKEN}}"
           downloaded_filename: twitter/trending-global-hashtags.json
           postprocess: ./src/processors/Twitter.ts
+
+      - name: Discord Notifier
+        uses: fateyan/action-discord-notifier@v1.2.0
+        if: always()
