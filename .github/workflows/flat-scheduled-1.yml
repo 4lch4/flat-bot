@@ -17,7 +17,7 @@ jobs:
         uses: githubocto/flat@v3.2.0
         with:
           http_url: https://api.twitter.com/1.1/trends/place.json?id=1
-          Authorization: "Bearer ${{secrets.TWITTER_API_BEARER_TOKEN}}"
+          authorization: "Bearer ${{secrets.TWITTER_API_BEARER_TOKEN}}"
           downloaded_filename: twitter/trending-global-hashtags.json
           postprocess: ./src/processors/Twitter.ts
 
