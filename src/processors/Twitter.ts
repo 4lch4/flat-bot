@@ -6,6 +6,9 @@ import { join } from 'https://deno.land/std@0.99.0/node/path.ts'
 // Get the data filename as the first argument
 const filename = Deno.args[0]
 const data = await Deno.readTextFile(filename)
+
+console.log(JSON.stringify(data, undefined, 2))
+
 const createdAt = data[0].created_at
 const newFilename = `${filename.substring(
   0,
