@@ -8,11 +8,11 @@ import {
 
 const filename = Deno.args[0]
 const data = await readJSON(filename)
-const createdAt = data[0].created_at
+// const createdAt = data[0].created_at
 const newFilename = `${filename.substring(
   0,
   filename.indexOf('.json')
-)}-${createdAt.replace(':', '.')}.json`
+)}-${new Date().toString().replace(':', '.').replace(' ', '.')}.json`
 
 await removeFile(filename)
 await writeJSON(newFilename, data)

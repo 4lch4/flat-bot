@@ -15,4 +15,4 @@ const newFilename = `${filename.substring(
   filename.indexOf('.json')
 )}-${createdAt.replace(':', '.')}.json`
 
-writeJSON(newFilename, data[0].trends)
+await writeJSON(newFilename, data[0].trends)
