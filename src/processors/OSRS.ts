@@ -9,31 +9,26 @@
 
 import { join } from 'https://deno.land/std@0.99.0/node/path.ts'
 import { format } from 'https://deno.land/std@0.99.0/datetime/mod.ts'
-
-function writeJson(path: string, data: object): string {
-  try {
-    Deno.writeTextFileSync(path, JSON.stringify(data))
-
-    return 'Written to ' + path
-  } catch (e) {
-    return e.message
-  }
-}
+import { ensureDir } from 'https://deno.land/std@0.99.0/fs/ensure_dir.ts'
 
 const fileDate = format(new Date(), 'yyyy-MM-dd_HH.mm.ss')
 const filename = Deno.args[0]
-const content: string = await Deno.readTextFile(filename)
 const newFilename = `${filename.substring(
   0,
   filename.indexOf('.txt')
 )}-${fileDate}.txt`
 
+const content: string = await Deno.readTextFile(filename)
 const newContent = content.substring(
   content.indexOf('(') + 1,
   content.indexOf(')')
 )
 
-await Deno.writeTextFileSync(join('data', 'osrs', newFilename), newContent)
+const outDir = join('data', 'osrs')
+
+await ensureDir(outDir)
+
+await Deno.writeTextFile(join(outDir, newFilename), newContent)
 
 // const res = await fileContent
 // fileContent.then((response: any) => {
