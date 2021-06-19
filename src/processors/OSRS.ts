@@ -1,7 +1,10 @@
 // Helper library written for useful postprocessing tasks with Flat Data
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 // You can test this script locally on your computer by running `deno run -A --unstable postprocess.ts data.json`
-import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.10/mod.ts'
+// import { readJSON, writeJSON } from 'https://deno.land/x/flat@0.0.10/mod.ts'
+import {
+  readJSON, removeFile, writeJSON
+} from 'https://deno.land/x/flat@0.0.10/mod.ts'
 
 const filename = Deno.args[0]
 const data = await readJSON(filename)
@@ -11,4 +14,5 @@ const newFilename = `${filename.substring(
   filename.indexOf('.json')
 )}-${createdAt.replace(':', '.')}.json`
 
+await removeFile(filename)
 await writeJSON(newFilename, data)
