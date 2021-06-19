@@ -8,11 +8,11 @@ import {
 
 // Get the data filename as the first argument
 const filename = Deno.args[0]
-const data = await readJSON(filename)
+const data = await Deno.readTextFile(filename)
 const createdAt = data[0].created_at
 const newFilename = `${filename.substring(
   0,
   filename.indexOf('.json')
 )}-${createdAt.replace(':', '.')}.json`
 
-await writeJSON(newFilename, data[0].trends)
+Deno.writeTextFileSync(newFilename, data[0].trends)
