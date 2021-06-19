@@ -18,6 +18,7 @@ jobs:
         with:
           http_url: https://old.reddit.com/r/PewdiepieSubmissions/top/.json?sort=top&t=day
           downloaded_filename: PewDiePieSubmissions.json
+
       - name: Fetch data
         uses: githubocto/flat@v3.2.0
         with:
@@ -26,7 +27,16 @@ jobs:
           downloaded_filename: twitter/trending-global-hashtags.json
           postprocess: ./src/processors/Twitter.ts
 
+      - name: Fetch data
+        uses: githubocto/flat@v3.2.0
+        with:
+          http_url: ${{ env.API_ENDPOINT }}
+          downloaded_filename: OSRS-Active-Users.txt
+          postprocess: ./src/processors/OSRS.ts
+
       - name: Discord Notifier
-        uses: fateyan/action-discord-notifier@v1.2.0
+        uses: sarisia/actions-status-discord@v1
         if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
 

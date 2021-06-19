@@ -25,5 +25,7 @@ jobs:
           postprocess: ./src/processors/OSRS.ts
 
       - name: Discord Notifier
-        uses: fateyan/action-discord-notifier@v1.2.0
+        uses: sarisia/actions-status-discord@v1
         if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
