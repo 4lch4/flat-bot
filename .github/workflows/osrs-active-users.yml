@@ -21,7 +21,7 @@ jobs:
         uses: githubocto/flat@v3.2.0
         with:
           http_url: ${{ env.API_ENDPOINT }}
-          downloaded_filename: OSRS-Active-Users.json
+          downloaded_filename: OSRS-Active-Users.txt
           postprocess: ./src/processors/OSRS.ts
 
       - name: Discord Notifier
