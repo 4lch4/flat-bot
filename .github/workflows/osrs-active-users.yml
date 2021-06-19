@@ -1,4 +1,4 @@
-name: Scheduled-Job-0
+name: OSRS Active Users (15m cycle)
 on:
   schedule:
     - cron: '*/15 * * * *'
