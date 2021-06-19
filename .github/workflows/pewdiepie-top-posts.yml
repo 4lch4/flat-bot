@@ -1,4 +1,4 @@
-name: Scheduled-Job-0
+name: PewDiePie Top Posts (1d Cycle)
 on:
   schedule:
     - cron: 0 0 * * *
