@@ -1,12 +1,11 @@
 import { ensureDir } from 'https://deno.land/std@0.99.0/fs/ensure_dir.ts'
 import { format } from 'https://deno.land/std@0.99.0/datetime/mod.ts'
 import { join } from 'https://deno.land/std@0.99.0/node/path.ts'
-import { deferred } from 'https://deno.land/std/async/mod.ts'
 
 export const getNewFilename = async (
   filename: string,
   source: 'twitter' | 'osrs'
-): deferred<string> => {
+) => {
   // Ensure the data directory exists by creating it if it doesn't yet exist.
   await ensureDir(join('data', source))
 
@@ -22,14 +21,13 @@ export const getNewFilename = async (
   return newFilename
 }
 
-
 /**
  * Reads the given JSON file and returns it as a parsed object.
  *
  * @param filename The name of the file to read.
  * @returns The content of the file as a JSON object.
  */
-export const readJSON = async (filename: string): deferred<string> => {
+export const readJSON = async (filename: string) => {
   // Read the file as plaintext.
   const content = await Deno.readTextFile(filename)
 
