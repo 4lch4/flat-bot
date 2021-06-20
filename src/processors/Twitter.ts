@@ -2,7 +2,7 @@
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 // You can test this script locally on your computer by runinng `deno run -A --unstable postprocess.ts data.json`
 import { deferred } from 'https://deno.land/std/async/mod.ts'
-import { getNewFilename, readJSON } from '../lib/Utils'
+import { getNewFilename, readJSON } from '../lib/Utils.ts'
 
 const main = async (): deferred<string> => {
   try {
